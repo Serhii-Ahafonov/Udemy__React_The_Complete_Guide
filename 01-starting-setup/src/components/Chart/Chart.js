@@ -16,7 +16,6 @@ const Chart = props => {
                 label={dataPont.label}/>
         ))}
     </div>
-
 }
 
 export default Chart;

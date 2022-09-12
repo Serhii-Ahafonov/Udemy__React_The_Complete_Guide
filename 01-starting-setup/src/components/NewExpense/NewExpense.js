@@ -1,4 +1,5 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
+
 import ExpenseForm from "./ExpenseForm";
 import './NewExpense.css';
 
@@ -23,10 +24,10 @@ const NewExpense = (props) => {
     }
 
     return <div className='new-expense'>
-        {formIsShown ? <ExpenseForm
+        { formIsShown ? <ExpenseForm
             onSaveExpenseData={saveExpenseDataHandler}
             onClose={hideFormHandler}
-        /> : <button type='button' onClick={showFormHandler}>Add New Expense</button>}
+            /> : <button type='button' onClick={showFormHandler}>Add New Expense</button> }
     </div>
 }
 
