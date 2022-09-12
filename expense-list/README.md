@@ -1,1 +1,1 @@
-# Welcome to Expense List App
+# Welcome to Expense Planner App
