@@ -30,7 +30,7 @@ const AllQuotes = () => {
   if (status === 'completed' && (!loadedQuotes || loadedQuotes.length === 0)) {
     return <NoQuotesFound/>
   }
-  console.log(loadedQuotes)
+
   return (
     <QuoteList quotes={loadedQuotes}/>
   );
